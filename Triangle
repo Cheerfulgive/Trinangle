@@ -1,0 +1,34 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+   int a, b, c;
+
+cout << "Enter the value of a"<< endl;   //first side input
+cout << "a =";
+cin  >>  a;
+
+cout << "Enter the value of b"<< endl;   //second side input
+cout << "b =";
+cin  >>  b;
+
+cout << "enter the value of c" << endl;   //third side input
+cout << "c =";
+cin  >> c;
+
+cout <<  "\n\n";
+
+
+
+    if ((pow(a, 2) + pow(b, 2) == pow(c, 2)) || (pow(b, 2) + pow(c, 2) == pow(a, 2))|| (pow(a, 2) + pow(c, 2) == pow(b, 2)))
+
+{
+    cout << "it is a right angle triangle!\n\n";
+}
+    else {
+        cout << "it is not right triangle!\n\n";
+    }
+    return 0;
+}
